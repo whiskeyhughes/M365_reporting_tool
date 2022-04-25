@@ -45,47 +45,74 @@ def defineVariables():
     m365_pricing_import = pd.read_csv('pricing.csv').squeeze().to_dict() 
     global total_cost_per_user
     total_cost_per_user = 0.0
+    security_weight_ranking = {1:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 2:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 3:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
+    security_weight_ranking_items = security_weight_ranking.items()
+    security_weight_total = 0
+    for points, lic in security_weight_ranking_items:
+        if m365_standard_bundles in lic:
+            security_weight_total += points
+        if m365_ems_bundles in lic:
+            security_weight_total += points
+        if m365_mdo_bundles in lic:
+            security_weight_total += points
+            
+    if security_weight_total == 1:
+        col2.write("🍆")
+        col2.caption("That is one of the smallest Security Eggplants we have ever seen...")
+    elif security_weight_total == 2:
+        col2.subheader("🍆")
+        col2.caption("That is one average size Security Eggplant...")
+    elif security_weight_total == range(3, 5):
+        col2.header("🍆")
+        col2.caption("Wow that is a very large Security Eggplant!!!")
+    else:
+        if security_weight_total >= 5:
+            col2.title("🍆")
+            col2.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
+
+
+
+
+
 
 ##### Function to create a Security Eggplant Size Ranking System #####
-def security_eggplant_sizing_scale():
-    security_weight_ranking = {0:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 1:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 2:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
-    security_weight_ranking_items = security_weight_ranking.items()
+# def security_eggplant_sizing_scale():
+#     security_weight_ranking = {0:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 1:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 2:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
+#     security_weight_ranking_items = security_weight_ranking.items()
 
-    with st.sidebar.form("How big is your Security Eggplant?"):
-        base_dropdown = st.selectbox('Base License', ["None", "Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Microsoft 365 Enterprise E5", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2", "Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5"])
-        ems_dropdown = st.selectbox('EMS Bundle', ["None", "Enterprise Mobility + Security E3", "Enterprise Mobility + Security E5"]) 
-        mdo_dropdown = st.selectbox('MDO Bundle', ["None", "Defender for Office P1", "Defender for Office P2"])
-        submitted = st.form_submit_button("Submit")
+#     with st.sidebar.form("How big is your Security Eggplant?"):
+#         base_dropdown = st.selectbox('Base License', ["None", "Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Microsoft 365 Enterprise E5", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2", "Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5"])
+#         ems_dropdown = st.selectbox('EMS Bundle', ["None", "Enterprise Mobility + Security E3", "Enterprise Mobility + Security E5"]) 
+#         mdo_dropdown = st.selectbox('MDO Bundle', ["None", "Defender for Office P1", "Defender for Office P2"])
+#         submitted = st.form_submit_button("Submit")
 
-        if submitted:
-            security_weight_total = 0
-            selection_list = []
-            selection_list.append(base_dropdown)
-            selection_list.append(ems_dropdown)
-            selection_list.append(mdo_dropdown)
+#         if submitted:
+#             security_weight_total = 0
+#             selection_list = []
+#             selection_list.append(base_dropdown)
+#             selection_list.append(ems_dropdown)
+#             selection_list.append(mdo_dropdown)
             
-            for points, lic in security_weight_ranking_items:
-                if base_dropdown in lic:
-                    security_weight_total += points
-                if ems_dropdown in lic:
-                    security_weight_total += points
-                if mdo_dropdown in lic:
-                    security_weight_total += points
+#             for points, lic in security_weight_ranking_items:
+#                 if base_dropdown in lic:
+#                     security_weight_total += points
+#                 if ems_dropdown in lic:
+#                     security_weight_total += points
+#                 if mdo_dropdown in lic:
+#                     security_weight_total += points
                 
-
-            
-            if security_weight_total <= 1:
-                st.write("🍆")
-                st.caption("That is one of the smallest Security Eggplants we have ever seen...")
-            elif security_weight_total <= 2:
-                st.subheader("🍆")
-                st.caption("That is one average size Security Eggplant...")
-            elif security_weight_total <= 4:
-                st.header("🍆")
-                st.caption("Wow that is a very large Security Eggplant!!!")
-            elif security_weight_total >= 5:
-                st.title("🍆")
-                st.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
+#             if security_weight_total <= 1:
+#                 st.write("🍆")
+#                 st.caption("That is one of the smallest Security Eggplants we have ever seen...")
+#             elif security_weight_total <= 2:
+#                 st.subheader("🍆")
+#                 st.caption("That is one average size Security Eggplant...")
+#             elif security_weight_total <= 4:
+#                 st.header("🍆")
+#                 st.caption("Wow that is a very large Security Eggplant!!!")
+#             elif security_weight_total >= 5:
+#                 st.title("🍆")
+#                 st.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
 
   
 ##### Function for the Base License Dropdown #####
@@ -524,5 +551,5 @@ featuresProvidedBasedOnChosenMdoBundle()
 featuresProvidedBasedOnChosenW10Bundle()
 featuresProvidedBasedOnChosenAadBundle()
 costPerUserCalculator()
-security_eggplant_sizing_scale()
+# security_eggplant_sizing_scale()
 
