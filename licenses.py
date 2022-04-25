@@ -329,11 +329,11 @@ def featuresProvidedBasedOnChosenBaseBundle():
                         ])        
                 ##### Convert the Dataframe to a Streamlit Table #####        
                 col1.table(base_plan_table_style)
-                col2.table(ems_plan_table_style)
-                col2.table(mdo_plan_table_style)
-                col2.table(voip_plan_table_style)
-                col2.table(w10_plan_table_style)
-                col2.table(addon_plan_table_style)
+                col1.table(ems_plan_table_style)
+                col1.table(mdo_plan_table_style)
+                col1.table(voip_plan_table_style)
+                col1.table(w10_plan_table_style)
+                col1.table(addon_plan_table_style)
                 col1.table(aad_plan_table_style)
 
 ##### Function for the EMS License Dropdown #####                
@@ -371,7 +371,7 @@ def featuresProvidedBasedOnChosenEmsBundle():
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             }
                         ])
-                col1.table(ems_plan_table_style)  
+                col2.table(ems_plan_table_style)  
 
 ##### Function for the MDO License Dropdown #####                
 def featuresProvidedBasedOnChosenMdoBundle():
@@ -409,7 +409,7 @@ def featuresProvidedBasedOnChosenMdoBundle():
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             }
                         ])
-                col1.table(mdo_plan_table_style)   
+                col2.table(mdo_plan_table_style)   
 
 ##### Function for the W10 License Dropdown #####                
 def featuresProvidedBasedOnChosenW10Bundle():
@@ -446,7 +446,7 @@ def featuresProvidedBasedOnChosenW10Bundle():
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             }
                         ])
-                col1.table(w10_plan_table_style) 
+                col2.table(w10_plan_table_style) 
                 
 
 ##### Function for the AAD License Dropdown #####                
@@ -484,7 +484,7 @@ def featuresProvidedBasedOnChosenAadBundle():
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             }
                         ])
-                col1.table(aad_plan_table_style) 
+                col2.table(aad_plan_table_style) 
 
 ##### Function for Calculating the Per User License Cost #####
 def costPerUserCalculator():
