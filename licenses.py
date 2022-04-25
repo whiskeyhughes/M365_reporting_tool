@@ -47,7 +47,7 @@ def defineVariables():
     total_cost_per_user = 0.0
     
     
-    security_weight_ranking = {0:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 1:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 2:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
+    security_weight_ranking = {1:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 2:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 3:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
 
     security_weight_ranking_items = security_weight_ranking.items()
     security_weight_total = 0
@@ -72,7 +72,7 @@ def defineVariables():
         col2.header("🍆")
         col2.caption("Wow that is a very large Security Eggplant!!!")
     elif security_weight_total >= 5:
-        col2.title("🍆")
+        col2.title("🍆💦")
         col2.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
     
 
@@ -222,7 +222,7 @@ def featuresProvidedBasedOnChosenBaseBundle():
                 base_plan_table_style =  base_plan_table_design.style.set_table_styles([
                             {
                                 "selector":"thead",
-                                "props": [("background-color", "LightCoral"), ("color", "white"),
+                                "props": [("background-color", "#2a9d8fff"), ("color", "white"),
                                           ("border", "3px solid white"),
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             },
