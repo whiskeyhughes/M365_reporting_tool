@@ -14,8 +14,8 @@ st.image(flaccid_logo, width=450, caption='Focusing on Hardening your Office 365
 
 ##### Global Variables #####
 def defineVariables():
-    global col1, col2
-    col1, col2 = st.columns(2)
+    global col1, col2, col3
+    col1, col2, col3 = st.columns(3)
     global m365_standard_bundles
     m365_standard_bundles = st.sidebar.selectbox('Base License', ["None", "Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Microsoft 365 Enterprise E5", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2", "Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5"])
     global m365_ems_bundles
@@ -45,7 +45,10 @@ def defineVariables():
     m365_pricing_import = pd.read_csv('pricing.csv').squeeze().to_dict() 
     global total_cost_per_user
     total_cost_per_user = 0.0
-    security_weight_ranking = {1:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 2:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 3:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
+    
+    
+    security_weight_ranking = {0:["Microsoft 365 Business Apps", "Microsoft 365 Business Basic", "Microsoft 365 Business Standard", "Office 365 Exchange Online Plan 1", "Office 365 Exchange Online Plan 2"], 1:["Office 365 Enterprise F3", "Office 365 Enterprise E1", "Office 365 Enterprise E3", "Office 365 Enterprise E5", "Enterprise Mobility + Security E3", "Defender for Office P1"], 2:["Microsoft 365 Business Premium", "Microsoft 365 Enterprise Apps", "Microsoft 365 Enterprise F1", "Microsoft 365 Enterprise F3", "Microsoft 365 Enterprise E3", "Microsoft 365 Enterprise E3 + (E5 Comp)", "Defender for Office P2", "Enterprise Mobility + Security E5"], 5:["Microsoft 365 Enterprise E3 + (E5 Sec)", "Microsoft 365 Enterprise E5"]}
+
     security_weight_ranking_items = security_weight_ranking.items()
     security_weight_total = 0
     for points, lic in security_weight_ranking_items:
@@ -54,22 +57,24 @@ def defineVariables():
         if m365_ems_bundles in lic:
             security_weight_total += points
         if m365_mdo_bundles in lic:
-            security_weight_total += points
-            
+            security_weight_total += points    
+
     if security_weight_total == 1:
         col2.write("🍆")
         col2.caption("That is one of the smallest Security Eggplants we have ever seen...")
     elif security_weight_total == 2:
         col2.subheader("🍆")
         col2.caption("That is one average size Security Eggplant...")
-    elif security_weight_total == range(3, 5):
+    elif security_weight_total == 3:
         col2.header("🍆")
         col2.caption("Wow that is a very large Security Eggplant!!!")
-    else:
-        if security_weight_total >= 5:
-            col2.title("🍆")
-            col2.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
-
+    elif security_weight_total == 4:
+        col2.header("🍆")
+        col2.caption("Wow that is a very large Security Eggplant!!!")
+    elif security_weight_total >= 5:
+        col2.title("🍆")
+        col2.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
+    
 
 
 
