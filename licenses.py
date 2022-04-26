@@ -222,7 +222,7 @@ def featuresProvidedBasedOnChosenBaseBundle():
                 base_plan_table_style =  base_plan_table_design.style.set_table_styles([
                             {
                                 "selector":"thead",
-                                "props": [("background-color", "#2a9d8fff"), ("color", "white"),
+                                "props": [("background-color", "LightCoral"), ("color", "white"),
                                           ("border", "3px solid white"),
                                           ("font-size", "1rem"), ("font-weight:", "bold")]
                             },
