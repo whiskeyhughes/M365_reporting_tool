@@ -60,7 +60,7 @@ def defineVariables():
             security_weight_total += points
         if m365_mdo_bundles in lic:
             security_weight_total += points    
-
+    st.sidebar.write("How Big is your Security Eggplant?")
     if security_weight_total == 1:
         st.sidebar.write("🍆")
         st.sidebar.caption("That is one of the smallest Security Eggplants we have ever seen...")
@@ -69,13 +69,13 @@ def defineVariables():
         st.sidebar.caption("That is one average size Security Eggplant...")
     elif security_weight_total == 3:
         st.sidebar.header("🍆")
-        st.sidebar.caption("Wow that is a very large Security Eggplant!!!")
+        st.sidebar.caption("Wow that is a very large Security Eggplant!")
     elif security_weight_total == 4:
         st.sidebar.header("🍆")
-        st.sidebar.caption("Wow that is a very large Security Eggplant!!!")
+        st.sidebar.caption("Wow that is a very large Security Eggplant!")
     elif security_weight_total >= 5:
         st.sidebar.title("🍆💦")
-        st.sidebar.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!!!!!")
+        st.sidebar.caption("THAT IS THE BIGGEST SECURITY EGGPLANT WE HAVE EVER SEEN!")
     
 
 
