@@ -2,7 +2,7 @@
 The Office 365 License Feature Tool!
 
 ## Description
-Anyone who has worked with Microsoft 365 knows that the licenses and features included in each license tier is very confusing, and often times requires a PHD to properly understand. We wanted a way to break down the different licenses to their simplist element so that way people could visually see what is included in the different tiers. This will help our sales team stop underselling and overselling licenses.  
+Anyone who has worked with Microsoft 365 knows that the licenses and features included in each license tier is very confusing, and often times requires a PHD to properly understand. We wanted a way to break down the different licenses to their simplist properties so that way users could quickly and visually see what is included in the different tiers. This will help our sales team stop underselling or overselling licenses.  
 
 ## Why are there so many Eggplants? 
 This is a valid question, and we understand that such a large amount of Eggplants might be off putting to certain groups of people, but I assure you there is a logical reason! 
@@ -14,33 +14,17 @@ The reason - To help motivating the sales team. What are the two things that sal
 
 ![Security Eggplant](https://img.shields.io/badge/Eggplant-%F0%9F%8D%86%20-brightgreen)
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+
+- **Migrating to using API.** We are looking to potentially pull this data from Microsoft's Graph API vs. CSVs
+
+- **Buzzword Catagory.** We are also looking to add a "Buzzwords" option that would help the sales team know what terms are okay to say in client conversations. Ideally you would also be able to search for something like, "Conditional Access" and see what licenses this feature is included in. 
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+If you can help make this project better, help would be much appreciated! 
 
 ## Authors and acknowledgment
 Joshua Hughes, Stephen Simon, and Logo Design by Jubal Burton. 
 
-## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
