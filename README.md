@@ -10,7 +10,9 @@ This is a valid question, and we understand that such a large amount of Eggplant
 The reason - To help motivating the sales team. What are the two things that sales people understand? Sex and Money. I wanted a way to showcase that selling more secure products can increase the size of your security eggplant. Most sales people are too vain to be okay with their client having a small security eggplant.
 
 ## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+
+
+![Security Eggplant](https://img.shields.io/badge/Eggplant-%F0%9F%8D%86%20-brightgreen)
 
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
