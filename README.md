@@ -13,6 +13,8 @@ The reason - To help motivating the sales team. What are the two things that sal
 
 
 ![Security Eggplant](https://img.shields.io/badge/Eggplant-%F0%9F%8D%86%20-brightgreen)
+![Python](https://img.shields.io/badge/Python-%F0%9F%90%8D-brightgreen)
+![Pandas](https://img.shields.io/badge/Pandas-%F0%9F%90%BC-brightgreen)
 
 
 ## Roadmap
