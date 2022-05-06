@@ -4,7 +4,7 @@ The Office 365 License Feature Tool!
 ## Description
 Anyone who has worked with Microsoft 365 knows that the licenses and features included in each license tier is very confusing, and often times requires a PHD to properly understand. We wanted a way to break down the different licenses to their simplist element so that way people could visually see what is included in the different tiers. This will help our sales team stop underselling and overselling licenses.  
 
-#Why are there so many Eggplants? 
+## Why are there so many Eggplants? 
 This is a valid question, and we understand that such a large amount of Eggplants might be off putting to certain groups of people, but I assure you there is a logical reason! 
 
 The reason - To help motivating the sales team. What are the two things that sales people understand? Sex and Money. I wanted a way to showcase that selling more secure products can increase the size of your security eggplant. Most sales people are too vain to be okay with their client having a small security eggplant.
