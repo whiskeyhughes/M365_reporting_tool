@@ -1,0 +1,14 @@
+EMS,Microsoft 365 Business Apps,Microsoft 365 Business Basic,Microsoft 365 Business Standard,Microsoft 365 Business Premium,Microsoft 365 Enterprise Apps,Microsoft 365 Enterprise F1,Microsoft 365 Enterprise F3,Microsoft 365 Enterprise E3,Microsoft 365 Enterprise E3 + (E5 Sec),Microsoft 365 Enterprise E3 + (E5 Comp),Microsoft 365 Enterprise E5,Office 365 Exchange Online Plan 1,Office 365 Exchange Online Plan 2,Office 365 Enterprise F3,Office 365 Enterprise E1,Office 365 Enterprise E3,Office 365 Enterprise E5,Enterprise Mobility + Security E3,Enterprise Mobility + Security E5,Windows 10 Pro,Windows 10 E3,Windows 10 E5
+Azure Active Directory Premium P1,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Conditional Access,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Multifactor Authentication (MFA),No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Self Service Passwork Reset for AD,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Azure Information Protection Plan 1,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,OME,OME,Yes,Yes,No,No,No
+Azure Rights Management,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,No,No,No
+Microsoft Intune,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Microsoft Advanced Threat Analytics,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Azure Active Directory Premium P2,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No
+Azure Information Protection Plan 2,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,No
+Microsoft Defender for Identity,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No
+Microsoft Cloud App Security,No,No,No,CAD,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No
+Office 365 SafeDocs,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,Yes,No,Yes,No,No,No

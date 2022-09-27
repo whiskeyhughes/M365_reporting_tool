@@ -1,0 +1,14 @@
+﻿Standard Services,Microsoft 365 Business Apps,Microsoft 365 Business Basic,Microsoft 365 Business Standard,Microsoft 365 Business Premium,Microsoft 365 Enterprise Apps,Microsoft 365 Enterprise F1,Microsoft 365 Enterprise F3,Microsoft 365 Enterprise E3,Microsoft 365 Enterprise E3 + (E5 Sec),Microsoft 365 Enterprise E3 + (E5 Comp),Microsoft 365 Enterprise E5,Office 365 Exchange Online Plan 1,Office 365 Exchange Online Plan 2,Office 365 Enterprise F3,Office 365 Enterprise E1,Office 365 Enterprise E3,Office 365 Enterprise E5,Enterprise Mobility + Security E3,Enterprise Mobility + Security E5,Windows 10 Pro,Windows 10 E3,Windows 10 E5
+Max Users,300,300,300,300,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited
+Install Office on 5 Computers,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Office Online,Yes,Yes,Yes,Yes,Yes,Read-Only,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+OneDrive,1 TB,1 TB,1 TB,1 TB,1 TB,No,2 GB,25+ TB,25+ TB,25+ TB,25+ TB,No,No,2 GB,1 TB,5+ TB,25+ TB,No,No,No,No,No
+Stream,No,No,No,No,No,Read-Only,No,P1,P1,P1,P2,No,No,No,P1,P1,P2,No,No,No,No,No
+Exchange Online,No,P1,P1,P1,No,No,Exchange Online Kiosk Plan 1,P2,P2,P2,P2,P1,P2,Exchange Online Kiosk Plan 1,P1,P2,P2,No,No,No,No,No
+Exchange Online Mailbox Size,No,50 GB,50 GB,50 GB,No,No,2 GB,100 GB,100 GB,100 GB,100 GB,50 GB,100 GB,2 GB,50 GB,100 GB,100 GB,No,No,No,No,No
+Exchange Online Archive Size,No,50 GB,50 GB,50 GB,No,No,Add-on,Unlmtd,Unlmtd,Unlmtd,Unlmtd,No,Unlmtd,Add-on,50 GB,Unlmtd,Unlmtd,No,No,No,No,No
+SharePoint Online,No,Yes,P1,P1,No,Yes,SOK1,P2,P2,P2,P2,No,No,SOK1,P1,P2,P2,No,No,No,No,No
+SharePoint Online DLP,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+SharePoint Online eDiscovery,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,No
+SharePoint Online Insights,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Teams,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No

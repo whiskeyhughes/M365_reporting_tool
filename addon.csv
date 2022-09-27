@@ -1,0 +1,45 @@
+Add-Ons,Microsoft 365 Business Apps,Microsoft 365 Business Basic,Microsoft 365 Business Standard,Microsoft 365 Business Premium,Microsoft 365 Enterprise Apps,Microsoft 365 Enterprise F1,Microsoft 365 Enterprise F3,Microsoft 365 Enterprise E3,Microsoft 365 Enterprise E3 + (E5 Sec),Microsoft 365 Enterprise E3 + (E5 Comp),Microsoft 365 Enterprise E5,Office 365 Exchange Online Plan 1,Office 365 Exchange Online Plan 2,Office 365 Enterprise F3,Office 365 Enterprise E1,Office 365 Enterprise E3,Office 365 Enterprise E5,Enterprise Mobility + Security E3,Enterprise Mobility + Security E5,Windows 10 Pro,Windows 10 E3,Windows 10 E5
+Advanced Auditing,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Advanced Compliance,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Advanced Data Governance,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Advanced eDiscovery,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Customer Lockbox,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Azure App Proxy,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No
+Bookings,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Data Subject Requests,No,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Delve,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,No
+Exchange ActiveSync,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Exchange Inbox Rules,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No
+Exchange Online Archiving,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No
+Archive Mailbox,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No
+eDiscovery,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+Litigation Hold,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Mailbox Backup,No,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,No
+Retention Policies,No,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Exchange Public Folders,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No
+Flow (Power Automate),No,Yes,Yes,Yes,Yes,No,K1,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+Forms,E1,E1,E1,E1,No,No,F1,E3,E3,E3,E5,No,No,F1,E1,E3,E5,No,No,No,No,No
+InfoPath,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Information Barriers,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Insider Risk Management,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
+Insights by MyAnalytics,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+Kaizala Pro,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+MIleiQ,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No
+MyAnalytics (Full),No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+Office 365 Cloud App Security,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Office 365 Data Loss Prevention,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,No,No,No
+Office 365 MFA (Not Azure MFA),Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Office 365 Shared Computer Activation,No,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Office Message Encryption,No,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No
+Planner,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,No
+Power BI Pro,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No
+PowerApps,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+SharePoint Syntex,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+StaffHub (Shifts),No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+Stream,No,No,Yes,Yes,No,Read-Only,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,No
+Sway,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+To-Do,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+Vision Online Plan 1,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Vision Online Plan 2,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Voicemail,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No
+Yammer,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No

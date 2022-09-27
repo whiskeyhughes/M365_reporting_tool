@@ -1,0 +1,50 @@
+Azure AD Features,Microsoft 365 Business Apps,Microsoft 365 Business Basic,Microsoft 365 Business Standard,Microsoft 365 Business Premium,Microsoft 365 Enterprise Apps,Microsoft 365 Enterprise F1,Microsoft 365 Enterprise F3,Microsoft 365 Enterprise E3,Microsoft 365 Enterprise E3 + (E5 Sec),Microsoft 365 Enterprise E3 + (E5 Comp),Microsoft 365 Enterprise E5,Office 365 Exchange Online Plan 1,Office 365 Exchange Online Plan 2,Office 365 Enterprise F3,Office 365 Enterprise E1,Office 365 Enterprise E3,Office 365 Enterprise E5,Enterprise Mobility + Security E3,Enterprise Mobility + Security E5,Windows 10 Pro,Windows 10 E3,Windows 10 E5,Azure Active Directory Premium P1,Azure Active Directory Premium P2
+Directory Objects,Unlmtd,500000,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,500000,500000,500000,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,No,No,No,Unlmtd,Unlmtd
+Single Sign-On (SSO),up to 10 apps,up to 10 apps,up to 10 apps,Unlmtd,up to 10 apps,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,Unlmtd,up to 10 apps,up to 10 apps,up to 10 apps,up to 10 apps,up to 10 apps,up to 10 apps,Unlmtd,Unlmtd,No,No,No,Unlmtd,Unlmtd
+User provisioning,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Federated Authentication (ADFS or 3rd party IDP),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+User and group management (add/update/delete),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Device registration,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+"Cloud Authentication (Pass-Through Auth, Password Hash sync, Seamless SSO)",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Azure AD Connect sync (extend on-premises directories to Azure AD),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Self-Service Password Change for cloud users,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Azure AD Join: desktop SSO & administrator bitlocker recovery,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Password Protection (global banned password),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Multi-Factor Authentication,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Basic security and usage reports,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Azure AD features for guest users,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+"Company branding (customization of logon & logout pages, access panel)",Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Group access management,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Self-service password reset for cloud users,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Service Level Agreement (SLA),Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Device write-back (device objects two-way synchronization between on-premises directories and Azure),Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Password Protection (custom banned password),No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Password Protection for Windows Server Active Directory (global & custom banned password),No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Self-service password reset/change/unlock with on-premises write-back,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Microsoft Cloud App Discovery,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Azure AD Join: MDM auto enrollment & local admin policy customization,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+"Azure AD Join: self-service bitlocker recovery, enterprise state roaming",No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Advanced security and usage reports,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Application Proxy,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Microsoft Identity Manager user CAL,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Connect Health,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Dynamic groups,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Group creation permission delegation,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Group naming policy,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Group expiration,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Usage guidelines,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Default classification,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+"Conditional Access based on group, location, and device status",No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Azure Information Protection integration,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+SharePoint limited access,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Terms of Use (set up terms of use for specific access),No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Multi-Factor Authentication with Conditional Access,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Microsoft Cloud App Security integration,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+3rd party MFA partner integrationPreview,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+3rd party identity governance partners integration,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Vulnerabilities and risky accounts detection,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
+Risk events investigation,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
+Risk based Conditional Access policies,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
+Privileged Identity Management (PIM),No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
+Access Reviews,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
+Entitlement ManagementPreview,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes
